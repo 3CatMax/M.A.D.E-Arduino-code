@@ -34,7 +34,7 @@ pinMode(pin1, OUTPUT);
 pinMode(pin2, OUTPUT);
 
 //use copy(CMD+C) and paste(CMD+V) to write the pinMode 
-//   code lines for the remaining variables. There shoul
+//   code lines for the remaining variables. There should
 //   be 8 pinMode lines.
 
 }
