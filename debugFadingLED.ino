@@ -30,12 +30,12 @@ void loop() {
   analogWrite(analogLED, 0);
   delay(2000);
 
-//once you have the inhale at slower pace, 
-//   write me a steady exhale for() for loop
-//   with a creative and descriptive variable 
-//   name for fading the light out.
 
-
-
+//once you have the inhale at slower pace, write me a steady 
+//   exhale for() loop with a creative and descriptive variable 
+//   name for fading the light out. Use copy and paste to get
+//   the format and then change it from there. Comment out the
+//   inhale code to concentrate on the exhale code.  
+//   Remember to check the sign direction!
 
 }
