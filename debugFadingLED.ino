@@ -3,8 +3,9 @@
  *   GPL V3 for non commercial use. M.A.D.E. 2018 CC- BY NC SA.
 
 ◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇
-This program is an EXAMPLE of ...
-This code will compile as is.
+This program is an EXAMPLE of using a for() loop to fade an LED on pin 10. This is the debug version.
+The completed version can be found at: 
+https://github.com/3CatMax/M.A.D.E-Arduino-code/blob/master/debugFadingLEDcomplete.ino
 ◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇
 
 ADD STUDENT META HERE
