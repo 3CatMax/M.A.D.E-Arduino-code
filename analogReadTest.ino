@@ -18,11 +18,11 @@
   Description: Add a brief description of what program does
 */
 
-int pin0 = 0;  //analog writes? y/n
+int pin0 = 0;  //analog writes? y/n Add this commented line to each pin below.
 int pin1 = 1;
 int pin2 = 2;
 int pin3 = 3;
-//write variables for the remaining pins, 6, 9, 10, 12
+//write variables for the remaining pins, 6, 9, 10, 12.
 
 
 
