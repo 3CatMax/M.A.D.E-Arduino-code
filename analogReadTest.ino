@@ -7,7 +7,8 @@
   an LED and alligator clips which pins can be analogWrite 
   programmed and should be used for fading LEDs. Literally
   just routes power to all the General Purpose Input Output
-  pins (GPIO). Digital pins will be off under 127 and on over 128.
+  pins (GPIO). Digital pins will be off under 127 and on over 128
+  (roughly half way between 255). 
   This code will compile as is.
   ◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇
 
@@ -17,13 +18,10 @@
   Description: Add a brief description of what program does
 */
 
-
-
-int pin0 = 0;
+int pin0 = 0;  //analog writes? y/n
 int pin1 = 1;
 int pin2 = 2;
 int pin3 = 3;
-
 //write variables for the remaining pins, 6, 9, 10, 12
 
 
@@ -32,7 +30,6 @@ void setup() {
 pinMode(pin0, OUTPUT);
 pinMode(pin1, OUTPUT);
 pinMode(pin2, OUTPUT);
-
 //use copy(CMD+C) and paste(CMD+V) to write the pinMode 
 //   code lines for the remaining variables. There should
 //   be 8 pinMode lines.
@@ -44,8 +41,7 @@ void loop() {
   analogWrite(pin1,50);
   analogWrite(pin2,50);
   analogWrite(pin3,50);
-  
- //use copy(CMD+C) and paste(CMD+V) to analogWrite the
+  //use copy(CMD+C) and paste(CMD+V) to analogWrite the
  //   remaining pin variables at 50. 
 
 }
