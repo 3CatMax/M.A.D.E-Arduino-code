@@ -17,7 +17,6 @@ STUDENT NAME(S):
 int analogLED = 10;    // LED connected to pin 10
 
 void setup() {
-  // nothing happens in setup
  pinMode(analogLED, OUTPUT);
 }
 
