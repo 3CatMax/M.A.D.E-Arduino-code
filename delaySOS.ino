@@ -4,7 +4,7 @@
 
   ◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇◇
   This program is an EXAMPLE used to teach using the delay
-  function. The LED should be attached to Ground and pin #1(RX #0)
+  function. The LED should be attached to Ground and pin #0(RX #0)
   on the Circuit Playground. Obviously the pattern is wrong, so 
   fix it so that it flashes SOS as described below. This code will
   compile as is, although it doesn't flash the LED correctly.
