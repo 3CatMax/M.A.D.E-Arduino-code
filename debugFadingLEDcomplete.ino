@@ -18,19 +18,19 @@ STUDENT NAME(S):
 int analogLED = 10;    // LED connected to pin 10
 
 void setup() {
-  // nothing happens in setup
+  pinMode(analogLED, OUTPUT);
 }
 
 void loop() {
   /*This for()loop SHOULD be fading in and out like breathing, 
   NOT hyperventilating. */
  
-  for (int getBrighter = 0 ; getBrighter <= 255; getBrighter=getBrighter+1){
+  for (int getBrighter = 0 ; getBrighter <= 255; getBrighter = getBrighter+1){
     analogWrite(analogLED, getBrighter);
     delay(20);
   }
 
-  for (int getDarkness = 255 ; getDarkness >= 0; getDarkness--){
+  for (int getDarkness = 255 ; getDarkness >= 0; getDarkness--){   //this is shorthand for getDarkness = getDarkness-1
     analogWrite(analogLED, getDarkness);
     delay(20);
   }
